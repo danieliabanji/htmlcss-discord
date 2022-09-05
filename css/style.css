@@ -88,6 +88,11 @@ h1{
     font-size: 56px;
 }
 /* bottoni */
+.btn-large-dark:hover, .btn-large-white:hover, .btn:hover, .btn-large-lilla:hover, .btn-lilla:hover  { 
+    opacity: 0.9;     
+    box-shadow: 2px 3px 20px 0px #1c1c1c;    
+    cursor: pointer; 
+    }
 .button{
     display: flex;
     justify-content: center;
