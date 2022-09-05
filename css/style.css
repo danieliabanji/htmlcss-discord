@@ -122,6 +122,14 @@ i{
 .wave{
     background-color: #f6f6f6;
 }
+.wave-1hkxOo{
+    color: #f6f6f6;
+    margin-bottom: -10px;
+}
+.wave-1hkxOo1{
+    color: #f6f6f6;
+    transform: rotate(180deg)
+}
 /* primo modulo e terzo modulo*/
 .flexbox-sx{
     display: flex;
