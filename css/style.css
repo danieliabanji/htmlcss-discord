@@ -1,0 +1,16 @@
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+    min-height: 100px;
+}
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
