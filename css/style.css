@@ -1,4 +1,12 @@
-/* utility */
+/* utility 
+colori:
+bianco: #ffffff
+blu: #3161e0
+nero: #23272a
+lila: #8ea1e1
+viola: #7289da
+
+*/
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +21,18 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+}
+/* general */
+body{
+    font-family: helvetica, arial, sans-serif;
+    background-color: #ffffff;
+}header{
+    background-color: #3161e0;
+}
+footer{
+    background-color: #23272a;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
 }
