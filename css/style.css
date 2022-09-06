@@ -262,8 +262,7 @@ footer .container{
 }
 /* infobox */
 .infobox{
-    padding-left: 350px;
-    padding-top: 80px;
+    margin-right: 260px;
 }
 .title-footer{
     max-width: 300px;
