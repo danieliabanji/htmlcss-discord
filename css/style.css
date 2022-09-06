@@ -17,6 +17,8 @@ grigio: #f6f6f6
     border: 1px solid black;
     min-height: 100px;
 }
+
+/* flexbox */
 .flexbox-nav{
     display: flex;
     flex-flow: row wrap;
@@ -24,6 +26,159 @@ grigio: #f6f6f6
     align-items: center;
     align-content: center;
 }
+.flexbox-sx{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 100px 40px;
+}
+.flexbox-dx{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 100px 40px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 100px 40px 50px 40px;
+}
+.flexbox-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.flexbox-footer-col{
+    display: flex;
+    flex-direction: column;
+}
+.flexbox-footer-row{
+    display: flex;
+    flex-direction: row;
+}
+.flexbox-foot{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+.flexbox-foot-dx{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+.flexbox-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.flexbox-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flexbox-bot-dx{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flexbox-sx2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 50px 40px;
+}
+
+/* bottoni */
+.btn-large-dark:hover, .btn-large-white:hover, .btn:hover, .btn-large-lilla:hover, .btn-lilla:hover  { 
+    opacity: 0.9;     
+    box-shadow: 1px 3px 15px 0px #1c1c1c;    
+    cursor: pointer; 
+}
+.btn-large-white:hover, .btn:hover{
+    color:#7289da;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    display: block;
+    background-color: #ffffff;
+    color: #23272a;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+.btn-large-white{
+    background-color: #ffffff;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-right: 24px;
+    margin-top: 24px;
+    color: black;
+    text-decoration: none;
+}
+.btn-large-dark{
+    background-color: #23272a;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-large-lilla{
+    background-color: #5865f2;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-right: 24px;
+    margin-top: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 40px;
+    width: auto;
+}
+.btn-lilla{
+    display: block;
+    background-color: #7289da;
+    color: #23272a;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #ffffff;
+}
+i{
+    padding-right: 10px;
+}
+/* fine bottoni */
 /* general */
 body{
     font-family: helvetica, arial, sans-serif;
@@ -35,14 +190,6 @@ footer{
 .container{
     max-width: 1170px;
     margin: 0 auto;
-}
-.btn{
-    display: block;
-    background-color: #ffffff;
-    color: #23272a;
-    border-radius: 20px;
-    padding: 10px 12px;
-    text-decoration: none;
 }
 li{
     list-style: none;
@@ -91,45 +238,8 @@ h1{
     font-weight: 800;
     line-height: 95%;
 }
-/* bottoni */
-.btn-large-dark:hover, .btn-large-white:hover, .btn:hover, .btn-large-lilla:hover, .btn-lilla:hover  { 
-    opacity: 0.9;     
-    box-shadow: 1px 3px 15px 0px #1c1c1c;    
-    cursor: pointer; 
-}
-.btn-large-white:hover, .btn:hover{
-    color:#7289da;
-}
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.btn-large-white{
-    background-color: #ffffff;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 16px 32px;
-    margin-right: 24px;
-    margin-top: 24px;
-    color: black;
-    text-decoration: none;
-}
-.btn-large-dark{
-    background-color: #23272a;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 16px 32px;
-    margin-top: 24px;
-    color: #ffffff;
-    text-decoration: none;
-}
-i{
-    padding-right: 10px;
-}
-/* fine bottoni */
 /* main */
+/* onda */
 .wave{
     background-color: #f6f6f6;
 }
@@ -141,15 +251,8 @@ i{
     color: #f6f6f6;
     transform: rotate(180deg)
 }
+/* fine onda */
 /* primo modulo e terzo modulo*/
-.flexbox-sx{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    padding: 100px 40px;
-}
-
 .col-right{
     padding-top: 30px;
     margin-left: 100px;
@@ -161,13 +264,6 @@ i{
 }
 /* fine primo modulo */
 /* secondo modulo */
-.flexbox-dx{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    padding: 100px 40px;
-}
 h2{
     padding-bottom: 20px;
     font-size: 40px;
@@ -185,15 +281,6 @@ h2{
 }
 /* fine secondo modulo */
 /* inizio quarto modulo */
-.flexbox{
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 100px 40px 50px 40px;
-}
 .p{ 
     padding-top: 20px;
     text-align: center;
@@ -203,12 +290,6 @@ h2{
     width: 100%;
 }
 /* quinto modulo */
-.flexbox-bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 120px;
-}
 h3{
     font-size: 25px;
     font-weight: 700;
@@ -220,45 +301,11 @@ h3{
     justify-content: center;
     
 }
-.btn-large-lilla{
-    background-color: #5865f2;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 16px 32px;
-    margin-right: 24px;
-    margin-top: 24px;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 40px;
-    width: auto;
-}
 /* fine quinto modulo */
 /* footer */
 footer .container{
     padding-top: 80px;
     padding-bottom: 64px;
-}
-.flexbox-footer-col{
-    display: flex;
-    flex-direction: column;
-}
-.flexbox-footer-row{
-    display: flex;
-    flex-direction: row;
-}
-.flexbox-foot{
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-}
-.flexbox-foot-dx{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: nowrap;
 }
 /* infobox */
 .infobox{
@@ -328,15 +375,7 @@ hr{
     max-width: 1170px;
     margin: 0 auto;
 }
-.btn-lilla{
-    display: block;
-    background-color: #7289da;
-    color: #23272a;
-    border-radius: 20px;
-    padding: 10px 12px;
-    text-decoration: none;
-    color: #ffffff;
-}
+
 /* page scarica */
 /* navbar */
 .container2{
@@ -365,14 +404,6 @@ hr{
     height: 400px;
     /* padding-left: 20px; */
 }
-.flexbox2{
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-}
 /* fine navbar */
 /* card */
 .container-card{
@@ -395,34 +426,8 @@ hr{
     margin: 10px;
     line-height: 2em;
 }
-
 .disp{
     width: 400px;
     margin-top: 40px;
 }
-.flexbox-card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-.flexbox-bot{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.flexbox-bot-dx{
-    margin-top: 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.flexbox-sx2{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    padding: 50px 40px;
-}
+
