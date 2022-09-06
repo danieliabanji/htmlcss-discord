@@ -329,10 +329,10 @@ footer .container{
     height: 16px;
     margin-right: 8px;
 }
-.lingua p {
-    font-size: 14px;
-    line-height: 18px;
+select{
+    background-color: #23272a;
     color: #ffffff;
+    border: none;
 }
 .lingua i{
     color: #ffffff;
