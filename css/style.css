@@ -88,6 +88,8 @@ li > a{
 /* fine hero */
 h1{
     font-size: 56px;
+    font-weight: 800;
+    line-height: 95%;
 }
 /* bottoni */
 .btn-large-dark:hover, .btn-large-white:hover, .btn:hover, .btn-large-lilla:hover, .btn-lilla:hover  { 
@@ -220,7 +222,7 @@ h3{
     
 }
 .btn-large-lilla{
-    background-color: #8ea1e1;
+    background-color: #5865f2;
     border-radius: 28px;
     font-size: 20px;
     padding: 16px 32px;
@@ -336,4 +338,39 @@ hr{
     padding: 10px 12px;
     text-decoration: none;
     color: #ffffff;
+}
+/* page scarica */
+.container2{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.sfondo-scuro{
+    background-color: #23272a;
+    min-height: 700px;
+}
+.sfondo-scuro nav{
+    padding: 20px 0;
+    background-color: #23272a;
+}
+.inner-hero2{
+    width: 750px;
+    color: white;
+}
+.inner-hero2 p{
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 1.625;
+}
+.pc{
+    width: 700px;
+    height: 400px;
+    /* padding-left: 20px; */
+}
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
 }
