@@ -1,7 +1,7 @@
 /* utility 
 colori:
 bianco: #ffffff
-blu: #3161e0
+blu: 255ee9
 nero: #23272a
 lilla: #8ea1e1
 viola: #7289da
@@ -49,8 +49,12 @@ li{
 }
 /* header */
 /* navbar */
+header{
+    background-color: #255ee9;
+}
 header nav{
     padding: 20px 0;
+    background-color: #255ee9;
 }
 header nav ul{
     min-width: 500px;
@@ -63,15 +67,13 @@ li > a{
 /* hero */
 .hero-image{
     background-image: url(../img/jumbo.png);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 630px;
+    height: 650px;
 }
 .inner-hero{
     text-align: center;
+    width: 750px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,9 +92,12 @@ h1{
 /* bottoni */
 .btn-large-dark:hover, .btn-large-white:hover, .btn:hover, .btn-large-lilla:hover, .btn-lilla:hover  { 
     opacity: 0.9;     
-    box-shadow: 2px 3px 20px 0px #1c1c1c;    
+    box-shadow: 1px 3px 15px 0px #1c1c1c;    
     cursor: pointer; 
-    }
+}
+.btn-large-white:hover, .btn:hover{
+    color:#7289da;
+}
 .button{
     display: flex;
     justify-content: center;
@@ -129,7 +134,7 @@ i{
 }
 .wave-1hkxOo{
     color: #f6f6f6;
-    margin-bottom: -10px;
+    display: block;
 }
 .wave-1hkxOo1{
     color: #f6f6f6;
